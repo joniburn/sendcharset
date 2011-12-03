@@ -1,11 +1,17 @@
 ---------------------------------------------------------------------------
-Roundcube plugin for make mail sending charset customizable.
+Roundcube plugin for customize character encoding of sending message.
 ---------------------------------------------------------------------------
+
+* Overview
+This plugin adds a option to mail composing preference.
+The option specifies which charset to be used in sending message.
+
 
 * Installation
 Put this plugin as plugins/sendcharset, then edit config/main.inc.php:
 
  $rcmail_config['plugins'] = array('sendcharset');
+
 
 * Configuration
 Copy config.inc.php.dist to config.inc.php and edit that.
