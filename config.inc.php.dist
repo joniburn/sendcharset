@@ -1,0 +1,6 @@
+<?php
+
+// Sendcharset Plugin options
+// --------------------
+
+//$rcmail_config['sendcharset'] = 'ISO-2022-JP';

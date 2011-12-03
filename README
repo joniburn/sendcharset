@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------
+sendcharset -- Make mail sending charset customizable.
+---------------------------------------------------------------------------
+
+* Installation
+Put the distributioninto plugins directory, then edit config/main.inc.php:
+
+ $rcmail_config['plugins'] = array('sendcharset');
+
+* Configuration
+Copy config.inc.php.dist to config.inc.php and edit that.
+There is only a option which specifies default sending charset.
+If it is not set, keeps default behavior(UTF-8 may be used).
